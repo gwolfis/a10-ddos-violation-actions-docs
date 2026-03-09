@@ -1,0 +1,29 @@
+site_name: A10 DDoS Defend Violation Actions
+site_description: Documentation for Violation Action Execute Scripts on A10 DDoS Defend, TPS, and A10 Control
+site_author: Gert Jan Wolfis
+
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - pymdownx.superfences
+  - pymdownx.highlight
+
+nav:
+  - Home: index.md
+  - Observability:
+      - Building Observability for VA Scripts: 1. Building Observability for VA Scripts.md
+  - Runtime and Development:
+      - Violation Action Script Reality: 2. Violation Action Script reality.md
+      - Script Development: 3. Script Development Blueprint.md
+      - Understand how to use Events: 4. Understand DDOS Events.md
+  - Use Cases:
+      - Use Case Examples Part 1: 5. Use Case Examples - BGP inject and withdraw.md
+      - Use Case Examples Part 2: 6. Use Case Examples - Bidirectional.md
+      - Use Case Ideas: 7. Integration Use Case Ideas.md
+      - Additional Use Case Ideas: 8. Additonal Use Case Ideas.md

@@ -1,0 +1,15 @@
+[Unit]
+Description=DDoS Syslog Trigger Watcher (AXAPI snapshots)
+After=network.target rsyslog.service
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/opt/ddos-watch
+ExecStart=/usr/bin/python3 /opt/ddos-watch/ddos_watch.py
+Restart=always
+RestartSec=2
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
