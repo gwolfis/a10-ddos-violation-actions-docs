@@ -16,7 +16,7 @@ fully explain:
 
 This documentation fills those gaps using a **probe-driven and observability-first approach**.
 
-## Security note on AXAPI credentials
+**Security note on AXAPI credentials**
 
 Some script examples in this documentation use the `admin` account when interacting with AXAPI.  
 This is done purely for simplicity and readability in lab examples.
